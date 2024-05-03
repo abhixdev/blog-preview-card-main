@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body class="bg-yellow font-Figtree">
+    <div class="flex h-screen items-center justify-center">
+      <div
+        class="container-shadow container mx-auto rounded-[20px] border bg-white"
+      >
+        <div class="p-6">
+          <div class="flex flex-col">
+            <img
+              class="rounded-[10px]"
+              src="./assets/images/illustration-article.svg"
+              alt=""
+            />
+
+            <!-- Contents of Card -->
+            <div class="content flex flex-col space-y-3 pt-6">
+              <div class="w-fit rounded-[4px] bg-yellow text-center">
+                <p class="mx-3 my-1 font-FigtreeExtraBold text-sm">Learning</p>
+              </div>
+              <p class="font-medium">Published 21 Dec 2023</p>
+              <h6
+                class="cursor-pointer font-FigtreeExtraBold text-2xl duration-200 hover:text-yellow"
+              >
+                HTML & CSS foundations
+              </h6>
+              <p class="font-medium text-gray">
+                These languages are the backbone of every website, defining
+                structure, content, and presentation.
+              </p>
+            </div>
+
+            <!-- Author -->
+            <div class="author mt-6">
+              <div class="flex items-center space-x-3">
+                <img
+                  class="h-8 w-8 rounded-full"
+                  src="./assets/images/image-avatar.webp"
+                  alt=""
+                />
+                <p class="font-FigtreeExtraBold text-sm">Greg Hooper</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
