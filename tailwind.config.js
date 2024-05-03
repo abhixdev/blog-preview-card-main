@@ -2,10 +2,6 @@
 module.exports = {
   content: ["*"],
   theme: {
-    screens: {
-      sm: "375px",
-      md: "1440px",
-    },
     fontFamily: {
       Figtree: ["Figtree", "sans-serif"],
       FigtreeExtraBold: ["Figtree-ExtraBold", "sans-serif"],
